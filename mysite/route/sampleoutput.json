@@ -1,0 +1,47 @@
+	{
+    "profiler": {
+        "basicinfo": {
+            "dataelements": 11,
+            "totalrows": 500,
+            "duplicates": 10
+        },
+        "elementtypes": {
+            "strings": 5,
+            "date": 3,
+            "Integer": 1,
+            "others": 2
+        }
+    },
+    "columns": {
+        "column1": {
+            "name": "flightoperator",
+            "datatype": "string",
+            "totalrows": 500,
+            "nullrows": 400,
+            "distinct": 10,
+            "nondistinct": 100,
+            "hfval": "Hello",
+            "lfval": "Hi",
+            "avglength": 100
+        },
+        "column2": {
+            "name": "flightnumber",
+            "datatype": "number",
+            "totalrows": 500,
+            "nullrows": 0,
+            "distinct": 500,
+            "nondistinct": 0,
+            "avglength": 5
+        },
+        "column3": {
+            "name": "departuredate",
+            "datatype": "date",
+            "totalrows": 500,
+            "nullrows": 120,
+            "distinct": 380,
+            "nondistinct": 0,
+            "minimumval": "2015-04-27T01:01:43.729Z",
+            "maxval": "2019-04-27T01:02:58.291Z"
+        }
+    }
+}
